@@ -1,0 +1,157 @@
+* {
+    background-color: rgb(139, 1, 1);
+}
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(246, 211, 192);
+    font-size: 100px;
+    line-height: 10px;
+}
+h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: rgb(246, 211, 192);
+    font-size: 20px;  
+}
+h3 {
+    font-family: "Nunito", sans-serif;
+    color: rgb(246, 211, 192);
+    font-size: 30px; 
+    text-align: left;
+    line-height: 4px;
+/* added */   
+    margin: 0;
+}
+p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    color: rgb(246, 211, 192);
+    text-align: left;
+}
+.home-page {
+/* adjusted; added */
+    display: flex;
+    margin-bottom: 100px;
+}
+#home-text {
+/* adjusted */
+    padding: 10px 10px 10px 50px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+/* added */
+    margin: 100px 0;
+}
+/* added */
+.bottle {
+    text-align: center;
+}
+/* added */
+.bottle img {
+    max-height: 200px;
+    width: auto;
+}
+/* delete - not necessary
+ .div1 { 
+    grid-area: 1 / 1 / 2 / 6; 
+}*/
+#content-text p {
+    text-align: right;
+/* adjusted */
+    padding: 10px 50px 10px 10px;
+}
+#content-text h3 {
+    text-align: right;
+/* adjusted */
+    padding: 10px 50px 10px 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+.content{
+    display: flex;
+    padding-right: 35px;
+/* added */
+    margin-bottom: 100px;
+}
+
+#home-text p {
+    text-align: left;
+}
+#home-text h3 {
+    text-align: left;
+    line-height: 10px;
+    /*padding: 10px;*/
+    text-transform: uppercase;
+}
+#visual {
+    margin-bottom: 100px;
+}
+#visual-text {
+    text-align: left;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+#visual-text h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+#visual-text p {
+    text-align: center;
+}
+.visual {
+    display: flex;
+justify-content: space-evenly;
+    padding-right: 10px;
+    padding-left:10px;
+    column-gap: 20px;
+    margin-bottom: 50px
+}
+.interactivity {
+    
+}
+#interactivity-text {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+#interactivity-text h3{
+    text-align: center;
+    padding: 50px 0 0 0;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+#interactivity-text p {
+    text-align: center;
+    padding: 10px;
+}
+.recs {
+    margin: 100px auto;
+    width: 80%;
+}
+.recs h3 {
+    font-family: "Nunito", sans-serif;
+    color: rgb(246, 211, 192);
+    font-size: 30px; 
+    text-align: center;
+    line-height: 4px;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+.recs p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    color: rgb(246, 211, 192);
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
